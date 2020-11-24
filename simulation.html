@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Solar Cell Virtual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+</head>
+
+<body>
+
+  <div id="header">
+    <div id="logo">
+      <div id="logo_text">
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <h1><a href="index.html">Solar Cell Simulation <span class="logo_colour">Experiment</span></a></h1>
+        <h2>Virtual Experiment for Material Characterization Lab-2</h2>
+      </div>
+    </div>
+    <div id="menubar">
+      <ul id="menu">
+        <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="relevant_theory.html">Relevant Theory</a></li>
+        <li><a href="procedure.html">Procedure</a></li>
+        <li class="selected"><a href="simulation.html">Simulation</a></li>
+        <li><a href="downloadables.html">Downloadables</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="site_content">
+
+    <div id="content">
+      <!-- insert the page content here -->
+      <h1>Tutorial Video</h1>
+
+
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/qrMSwcc7PE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+      <br><br>
+      <br>
+      <h1>Real Time Experiment Demo</h1>
+
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/KjNlm10mN_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+    </div>
+    <br><br><br>
+    <hr>
+    <h1>Discussion and Data Analysis</h1>
+    <p>The I-V data should be plotted with I in y-axis and V in x-axis; the curve fitting should be done using appropriate tools as shown below.</p>
+    <img width="640" height="360" src="cv_graph.png" alt="I-V Graph">
+    <br><br><br><br>
+    <p>Polynomial fit of dataset: Table1_I, using function: a0+a1*x+a2*x^2+a3*x^3+a4*x^4
+      Y standard errors: Unknown
+      <br>
+      From x = 0.042 to x = 1.289
+      <br>
+      a0 = 2.06178747857915 +/- 0.0115984026109416 <br>
+      a1 = -0.0747379668944727 +/- 0.141955243565931<br>
+      a2 = -1.16470166281219 +/- 0.453834716564529<br>
+      a3 = 2.54964454190042 +/- 0.525645857201019<br>
+      a4 = -1.57349897060277 +/- 0.199084496311697<br>
+      <hr><br>
+      R^2 = 0.999352258113512
+      <br>
+      <img src="equation.png" alt="" width="800" height="67">
+      <br><br>
+    <p><b>Open circuit voltage and short circuit current.</b><br>
+      At zero voltage, we get short circuit current value and at zero current we get open circuit voltage.
+    </p>
+    <h3>MATLAB code to determine Open-Circuit Voltage</h3>
+    <img src="matlab.png" alt="">
+    <h3>Conclusion</h3>
+    <p>The Current-Voltage Characteristics were studied through the real demo. It was also simulated through the generated program. </p>
+
+
+    </p>
+  </div>
+
+
+</body>
+
+</html>

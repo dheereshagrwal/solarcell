@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Solar Cell Virtual</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+</head>
+
+<body>
+
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Solar Cell Simulation <span class="logo_colour">Experiment</span></a></h1>
+          <h2>Virtual Experiment for Material Characterization Lab-2</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="relevant_theory.html">Relevant Theory</a></li>
+          <li class="selected"><a href="procedure.html">Procedure</a></li>
+          <li><a href="simulation.html">Simulation</a></li>
+          <li><a href="downloadables.html">Downloadables</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Procedure</h1>
+        <ol>
+          <li>Illumination Characteristics</li>
+          <ul>
+            <li>To study the photovoltaic effect in solar cell, a 100W light bulb was used as the light source.</li>
+            <li>The wire connections were made properly. The ammeter was connected with the solar cell for this measurement. </li>
+            <li>The intensity was changed (say 50, 75,100 and so on) and the corresponding current measured.</li>
+            <li>Plot the Intensity vs. Current curve.</li>
+            <img src="t1.png" alt="tabel 1">
+          </ul>
+
+
+          <li>Current-Voltage characteristics</li>
+          <ul>
+            <li>The wires were connected properly. The connections were removed from the ammeter and inserted in the voltmeter. The red wire from the voltmeter was connected to the resistance box and black wire to the black slot in the ammeter. The
+              rest connection was done using a single red wire from ammeter to the resistance box.</li>
+            <li>The intensity was fixed to a particular value, say 150V and 200V, and the resistance was changed and the voltage and current readings simultaneously noted down (up to 1100 Ohm).</li>
+            <li>Plot the current (I) vs. voltage (V) (I on Y-axis and V on X-axis) for individual intensity.</li>
+            <img src="t2.png" alt="tabel 2">
+          </ul>
+
+
+          <li>Power calculation</li>
+          <ul>
+            <li>The power generated was calculated, and the maximum power was noted.</li>
+            <li>From the graph, we calculate Open-Circuit Voltage, Short-Circuit Current, and respective Voltage and Current at maximum Power</li>
+
+          </ul>
+        </ol>
+        <h2>Precautions</h2>
+        <ul>
+          <li>White light should be used; it enables meaningful spectral characteristics data generation.</li>
+          <li>Surface of the solar cell should be clean.</li>
+          <li>Light source should be perpendicular to the solar cell.</li>
+          <li>The experiment should be conducted at a place with constant lighting conditions.</li>
+          <li>A resistance should be introduced so as to keep the current in check. This ensured safety of the solar cell.</li>
+
+
+        </ul>
+      </div>
+      <h2>Sample Graphs</h2>
+      <br>
+      <hr>
+      <img src="illumination_graph.png" alt="illumination_graph">
+      <br><br><br><br><br>
+      <hr>
+      <img height="325" width="476" src="cv_graph.png" alt="I-V Graph">
+    </div>
+
+</body>
+
+</html>

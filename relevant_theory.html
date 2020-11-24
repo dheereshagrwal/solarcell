@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Solar Cell Virtual</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+</head>
+
+<body>
+
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Solar Cell Simulation <span class="logo_colour">Experiment</span></a></h1>
+          <h2>Virtual Experiment for Material Characterization Lab-2</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="relevant_theory.html">Relevant Theory</a></li>
+          <li><a href="procedure.html">Procedure</a></li>
+          <li><a href="simulation.html">Simulation</a></li>
+          <li><a href="downloadables.html">Downloadables</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Theory</h1>
+
+        <p>
+          Solid state devices, p-n junction solar cells are basically energy converters,
+          which convert solar energy (or any other luminous source such as electrical bulb)
+          into electrical energy through three-steps.
+        </p>
+        <br>
+        <p>These steps are:</p>
+
+        <ul>
+          <li>Generation of carrier pairs (electron-hole pairs)</li>
+          <li>Separation, and,</li>
+          <li>Collection of separated charge carriers</li>
+        </ul>
+        <p>
+          When solar light hits a solar cell, it generates charge carriers (electron-hole pairs), which move towards the junction through the process of diffusion. The barrier will separate the positive and negative charge carriers at the junction.
+          When an electric field is applied, the minority charge carriers, the electrons, move towards the n-region from the p-region (and vice-versa for holes). Therefore, an accumulation of charge occurs (increased no of holes on the p-side and
+          electrons on the n-side) on the two extremities of the solar cell which generates emf, known as photo emf of the solar cell.
+        </p>
+        <img src="graph.png" alt="graph image">
+        <p>The photo emf, (open circuit voltage) is proportional to the illumination (mW/cm2 or lumen/cm2) and the size of the illumination area. When an external circuit is connected to the solar cell, the minority charge carriers reach their
+          original sides and thereby cause an electric current to flow through the circuit. Thus, the solar cell behaves as battery with negative n-side and positive p-side. The photo emf can be measured using a voltmeter. The conversion of solar
+          energy to electrical energy is known as photovoltaic effect; hence, solar cell is also called a photovoltaic cell.</p>
+      </div>
+    </div>
+
+</body>
+
+</html>
